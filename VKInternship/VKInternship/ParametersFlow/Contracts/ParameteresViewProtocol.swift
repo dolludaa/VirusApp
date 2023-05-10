@@ -9,8 +9,9 @@ import Foundation
 import UIKit
 
 protocol ParameteresViewProtocol: UIView {
-    var groupSizeText: UITextField { get }
-    var timerCountText: UITextField { get }
-    var modelingButton: UIButton { get }
+    var groupSize: Int { get }
+    var timerCount: Int { get }
+    var infectPercent: Int { get }
+    var infectRate: Int { get }
     func didLoad()
 }

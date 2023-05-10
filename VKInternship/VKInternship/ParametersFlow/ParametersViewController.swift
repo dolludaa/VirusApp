@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ParametersViewController: UIViewController, UITextFieldDelegate {
+final class ParametersViewController: UIViewController {
 
     private let parametersView: ParameteresViewProtocol
 
@@ -30,26 +30,24 @@ final class ParametersViewController: UIViewController, UITextFieldDelegate {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        if textField == parametersView.groupSizeText || textField == parametersView.timerCountText {
-            UIView.animate(withDuration: 0.3) {
-                self.parametersView.modelingButton.transform = CGAffineTransform(translationX: 0, y: -270)
-            }
-        }
-    }
-
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        if textField == parametersView.groupSizeText || textField == parametersView.timerCountText {
-            UIView.animate(withDuration: 0.3) {
-                self.parametersView.modelingButton.transform = .identity
-            }
-        }
-    }
 }
 
 extension ParametersViewController: ParametersViewControllerProtocolDelegate {
-    func pushVC(newVC: UIViewController) {
-        navigationController?.pushViewController(newVC, animated: true)
+    func modelingButtonDidTap() {
+
+        guard parametersView.groupSize > 0,
+              parametersView.infectPercent > 0,
+              parametersView.infectRate > 0,
+              parametersView.timerCount > 0
+        else { return }
+
+        let modelVC = ModelViewControlerAssembly().create(
+            totalPeopleNumber: parametersView.groupSize,
+            infectPercent: parametersView.infectPercent,
+            infectRate: parametersView.infectRate,
+            infectInterval: parametersView.timerCount
+        )
+
+        navigationController?.pushViewController(modelVC, animated: true)
     }
 }

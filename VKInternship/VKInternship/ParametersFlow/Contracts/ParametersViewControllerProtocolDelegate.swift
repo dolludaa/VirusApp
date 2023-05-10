@@ -11,5 +11,5 @@ import UIKit
 protocol ParametersViewControllerProtocolDelegate: AnyObject, UITextFieldDelegate {
     var navigationItem: UINavigationItem { get }
     var title: String? { get set }
-    func pushVC(newVC: UIViewController)
+    func modelingButtonDidTap()
 }

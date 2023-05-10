@@ -116,7 +116,7 @@ final class ParameteresView: UIView {
 
         backgroundColor = AppColor.backgroundColor.color
         delegate?.title = "Параметры"
-        //        navigationController?.navigationBar.prefersLargeTitles = true
+        delegate?.navigationItem.backButtonTitle = ""
 
         groupSizeLabel.text = "количество людей".uppercased()
         groupSizeLabel.textColor = AppColor.textPrimary.color
@@ -188,26 +188,7 @@ final class ParameteresView: UIView {
 
     @objc private func modelingButtonDidTap() {
 
-
-        guard let text = groupSizeTextField.text,
-              let groupSize = Int(text),
-              let timeText = timerCountTextField.text,
-              let time = Double(timeText)
-
-        else { return }
-
-        let modelViewControler = ModelViewControler(
-            totalPeopleNumber: groupSize,
-            healthyPeopleNumber: groupSizeTextField.text ?? "",
-            sickTracker: SickTracker(
-                elementsCount: groupSize ,
-                maxRowCount: 7,
-                infectPercent: Int(interfectionFactorSlider.value),
-                infectRate: Int(infectionProbabilitySlider.value),
-                time: time
-            ))
-
-        delegate?.pushVC(newVC: modelViewControler)
+        delegate?.modelingButtonDidTap()
     }
 
     @objc func doneButtonTapped() {
@@ -218,21 +199,39 @@ final class ParameteresView: UIView {
 }
 
 extension ParameteresView: ParameteresViewProtocol {
-    var modelingButton: UIButton {
-        startModelingButton
+    var infectPercent: Int {
+        Int(infectionProbabilitySlider.value.rounded())
     }
 
-    var groupSizeText: UITextField {
-        groupSizeTextField
+    var infectRate: Int {
+        Int(interfectionFactorSlider.value.rounded())
     }
 
-    var timerCountText: UITextField {
-        timerCountTextField
+    var timerCount: Int {
+        return Int(timerCountTextField.text ?? "") ?? 0
+    }
+
+    var groupSize: Int {
+        return Int(groupSizeTextField.text ?? "") ?? 0
     }
 
     func didLoad() {
         setUp()
         setUpStyle()
         setUpLayout()
+    }
+}
+
+extension ParameteresView: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        UIView.animate(withDuration: 0.3) {
+            self.startModelingButton.transform = CGAffineTransform(translationX: 0, y: -270)
+        }
+    }
+
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        UIView.animate(withDuration: 0.3) {
+            self.startModelingButton.transform = .identity
+        }
     }
 }

@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442A39B52A0C14580091590F /* ModelViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A39B42A0C14580091590F /* ModelViewProtocol.swift */; };
+		442A39B72A0C15E10091590F /* ModelViewControlerProtocolDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A39B62A0C15E10091590F /* ModelViewControlerProtocolDelegate.swift */; };
+		442A39B92A0C15FB0091590F /* ModelViewControlerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A39B82A0C15FB0091590F /* ModelViewControlerAssembly.swift */; };
+		4450A6AF2A0C079D00757470 /* AppColorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A6AE2A0C079D00757470 /* AppColorEnum.swift */; };
+		4450A6B42A0C07E600757470 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A6B32A0C07E600757470 /* UIColor.swift */; };
+		4450A6B62A0C07FB00757470 /* ModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A6B52A0C07FB00757470 /* ModelCell.swift */; };
+		4450A6B92A0C082700757470 /* ParameteresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A6B82A0C082700757470 /* ParameteresView.swift */; };
+		4450A6BB2A0C082D00757470 /* ParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A6BA2A0C082D00757470 /* ParametersViewController.swift */; };
+		4450A6BD2A0C083300757470 /* ParametersViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A6BC2A0C083300757470 /* ParametersViewControllerAssembly.swift */; };
+		4450A6C02A0C084300757470 /* ParameteresViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A6BF2A0C084300757470 /* ParameteresViewProtocol.swift */; };
+		4450A6C22A0C084800757470 /* ParametersViewControllerProtocolDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A6C12A0C084800757470 /* ParametersViewControllerProtocolDelegate.swift */; };
+		4450A6C42A0C086A00757470 /* SickTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A6C32A0C086A00757470 /* SickTracker.swift */; };
+		4450A6C82A0C0D5000757470 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A6C72A0C0D5000757470 /* ModelView.swift */; };
 		44F676DA2A06745D00C4CFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F676D92A06745D00C4CFD4 /* AppDelegate.swift */; };
 		44F676DC2A06745D00C4CFD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F676DB2A06745D00C4CFD4 /* SceneDelegate.swift */; };
-		44F676DE2A06745D00C4CFD4 /* ParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F676DD2A06745D00C4CFD4 /* ParametersViewController.swift */; };
-		44F676E12A06745D00C4CFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F676DF2A06745D00C4CFD4 /* Main.storyboard */; };
 		44F676E32A06745F00C4CFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F676E22A06745F00C4CFD4 /* Assets.xcassets */; };
-		44F676E62A06745F00C4CFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F676E42A06745F00C4CFD4 /* LaunchScreen.storyboard */; };
 		44F676EE2A06772D00C4CFD4 /* ModelViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F676ED2A06772D00C4CFD4 /* ModelViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		442A39B42A0C14580091590F /* ModelViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewProtocol.swift; sourceTree = "<group>"; };
+		442A39B62A0C15E10091590F /* ModelViewControlerProtocolDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewControlerProtocolDelegate.swift; sourceTree = "<group>"; };
+		442A39B82A0C15FB0091590F /* ModelViewControlerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewControlerAssembly.swift; sourceTree = "<group>"; };
+		4450A6AE2A0C079D00757470 /* AppColorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorEnum.swift; sourceTree = "<group>"; };
+		4450A6B32A0C07E600757470 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		4450A6B52A0C07FB00757470 /* ModelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelCell.swift; sourceTree = "<group>"; };
+		4450A6B82A0C082700757470 /* ParameteresView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParameteresView.swift; path = VKInternship/ParametersFlow/ParameteresView.swift; sourceTree = SOURCE_ROOT; };
+		4450A6BA2A0C082D00757470 /* ParametersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParametersViewController.swift; path = VKInternship/ParametersFlow/ParametersViewController.swift; sourceTree = SOURCE_ROOT; };
+		4450A6BC2A0C083300757470 /* ParametersViewControllerAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParametersViewControllerAssembly.swift; path = VKInternship/ParametersFlow/ParametersViewControllerAssembly.swift; sourceTree = SOURCE_ROOT; };
+		4450A6BF2A0C084300757470 /* ParameteresViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParameteresViewProtocol.swift; path = VKInternship/ParametersFlow/Contracts/ParameteresViewProtocol.swift; sourceTree = SOURCE_ROOT; };
+		4450A6C12A0C084800757470 /* ParametersViewControllerProtocolDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParametersViewControllerProtocolDelegate.swift; path = VKInternship/ParametersFlow/Contracts/ParametersViewControllerProtocolDelegate.swift; sourceTree = SOURCE_ROOT; };
+		4450A6C32A0C086A00757470 /* SickTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SickTracker.swift; sourceTree = "<group>"; };
+		4450A6C72A0C0D5000757470 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 		44F676D62A06745D00C4CFD4 /* VKInternship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKInternship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F676D92A06745D00C4CFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44F676DB2A06745D00C4CFD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44F676DD2A06745D00C4CFD4 /* ParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersViewController.swift; sourceTree = "<group>"; };
-		44F676E02A06745D00C4CFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44F676E22A06745F00C4CFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		44F676E52A06745F00C4CFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44F676E72A06745F00C4CFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44F676ED2A06772D00C4CFD4 /* ModelViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +59,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		442A39B32A0C144B0091590F /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				442A39B42A0C14580091590F /* ModelViewProtocol.swift */,
+				442A39B62A0C15E10091590F /* ModelViewControlerProtocolDelegate.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		4450A6AB2A0C076A00757470 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				4450A6AE2A0C079D00757470 /* AppColorEnum.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		4450A6B22A0C07D700757470 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4450A6B32A0C07E600757470 /* UIColor.swift */,
+			);
+			name = Extensions;
+			path = VKInternship/Extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		4450A6B72A0C081600757470 /* ParameteresFlow */ = {
+			isa = PBXGroup;
+			children = (
+				4450A6BE2A0C083B00757470 /* Contracts */,
+				4450A6BA2A0C082D00757470 /* ParametersViewController.swift */,
+				4450A6BC2A0C083300757470 /* ParametersViewControllerAssembly.swift */,
+				4450A6B82A0C082700757470 /* ParameteresView.swift */,
+			);
+			path = ParameteresFlow;
+			sourceTree = "<group>";
+		};
+		4450A6BE2A0C083B00757470 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				4450A6C12A0C084800757470 /* ParametersViewControllerProtocolDelegate.swift */,
+				4450A6BF2A0C084300757470 /* ParameteresViewProtocol.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		4450A6C52A0C0D2F00757470 /* ModelFlow */ = {
+			isa = PBXGroup;
+			children = (
+				442A39B32A0C144B0091590F /* Contracts */,
+				4450A6C62A0C0D3C00757470 /* View */,
+				44F676ED2A06772D00C4CFD4 /* ModelViewControler.swift */,
+				4450A6C72A0C0D5000757470 /* ModelView.swift */,
+				442A39B82A0C15FB0091590F /* ModelViewControlerAssembly.swift */,
+			);
+			path = ModelFlow;
+			sourceTree = "<group>";
+		};
+		4450A6C62A0C0D3C00757470 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4450A6B52A0C07FB00757470 /* ModelCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		44F676CD2A06745D00C4CFD4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +144,15 @@
 		44F676D82A06745D00C4CFD4 /* VKInternship */ = {
 			isa = PBXGroup;
 			children = (
+				4450A6C52A0C0D2F00757470 /* ModelFlow */,
+				4450A6B72A0C081600757470 /* ParameteresFlow */,
+				4450A6AB2A0C076A00757470 /* Entities */,
+				4450A6B22A0C07D700757470 /* Extensions */,
 				44F676D92A06745D00C4CFD4 /* AppDelegate.swift */,
 				44F676DB2A06745D00C4CFD4 /* SceneDelegate.swift */,
-				44F676DD2A06745D00C4CFD4 /* ParametersViewController.swift */,
-				44F676DF2A06745D00C4CFD4 /* Main.storyboard */,
 				44F676E22A06745F00C4CFD4 /* Assets.xcassets */,
-				44F676E42A06745F00C4CFD4 /* LaunchScreen.storyboard */,
 				44F676E72A06745F00C4CFD4 /* Info.plist */,
-				44F676ED2A06772D00C4CFD4 /* ModelViewControler.swift */,
+				4450A6C32A0C086A00757470 /* SickTracker.swift */,
 			);
 			path = VKInternship;
 			sourceTree = "<group>";
@@ -128,9 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F676E62A06745F00C4CFD4 /* LaunchScreen.storyboard in Resources */,
 				44F676E32A06745F00C4CFD4 /* Assets.xcassets in Resources */,
-				44F676E12A06745D00C4CFD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,33 +226,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F676DE2A06745D00C4CFD4 /* ParametersViewController.swift in Sources */,
+				4450A6AF2A0C079D00757470 /* AppColorEnum.swift in Sources */,
+				4450A6B42A0C07E600757470 /* UIColor.swift in Sources */,
+				4450A6C42A0C086A00757470 /* SickTracker.swift in Sources */,
 				44F676DA2A06745D00C4CFD4 /* AppDelegate.swift in Sources */,
+				4450A6BB2A0C082D00757470 /* ParametersViewController.swift in Sources */,
+				4450A6C82A0C0D5000757470 /* ModelView.swift in Sources */,
+				4450A6B92A0C082700757470 /* ParameteresView.swift in Sources */,
+				4450A6C02A0C084300757470 /* ParameteresViewProtocol.swift in Sources */,
 				44F676EE2A06772D00C4CFD4 /* ModelViewControler.swift in Sources */,
+				4450A6B62A0C07FB00757470 /* ModelCell.swift in Sources */,
+				4450A6C22A0C084800757470 /* ParametersViewControllerProtocolDelegate.swift in Sources */,
+				442A39B72A0C15E10091590F /* ModelViewControlerProtocolDelegate.swift in Sources */,
+				4450A6BD2A0C083300757470 /* ParametersViewControllerAssembly.swift in Sources */,
+				442A39B52A0C14580091590F /* ModelViewProtocol.swift in Sources */,
+				442A39B92A0C15FB0091590F /* ModelViewControlerAssembly.swift in Sources */,
 				44F676DC2A06745D00C4CFD4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		44F676DF2A06745D00C4CFD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44F676E02A06745D00C4CFD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		44F676E42A06745F00C4CFD4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44F676E52A06745F00C4CFD4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		44F676E82A06745F00C4CFD4 /* Debug */ = {
@@ -220,6 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -274,6 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -296,7 +376,6 @@
 				INFOPLIST_FILE = VKInternship/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
@@ -325,7 +404,6 @@
 				INFOPLIST_FILE = VKInternship/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
