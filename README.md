@@ -1,25 +1,26 @@
-# VKInternship
+# VirusApp
 
 
-Это приложение для iOS, которое имитирует и визуализирует распространение инфекции в группе людей 🦠. В приложении есть два экрана: один для ввода параметров, а другой для визуализации симуляции. 
-Симуляция производится путем случайного заражения некоторых людей, а затем подсчитывается количество зараженных людей с заданной частотой. Затем симуляция обновляется и визуализируется в режиме реального времени на втором экране.
+This is an iOS application that simulates and visualizes the spread of infection among a group of people 🦠. The app has two screens: one for entering parameters and another for visualizing the simulation. 
+The simulation is conducted by randomly infecting some people, and then the number of infected people is counted at a set frequency. The simulation is then updated and visualized in real-time on the second screen.
 
-## Как использовать:
+## How to Use:
 
 
 ### Parameter Input Screen
 
-При запуске приложения пользователь видит экран ввода параметров со следующими полями ввода:
+Upon launching the app, the user is presented with a parameter input screen with the following input fields:
 <img align="right" width="20%" src="https://github.com/dolludaa/VKInternship/assets/111228178/2fa590ec-c272-4b59-a9f6-fd7c3cd47991.png">
 
-- Размер группы: количество людей в группе для симуляции 🔢
+- Group Size: the number of people in the group for the simulation 🔢
 
-- Фактор заражения: количество людей, которых может заразить один человек в контакте 🤒
+- Infection Factor: the number of people that one infected person can infect upon contact 🤒
 
-- Период расчета: частота, с которой количество зараженных людей пересчитывается и обновляется на экране ⏳
+- Calculation Period: the frequency at which the number of infected people is recalculated and updated on the screen ⏳
 
-- Вероятность заражения: процент, с которым вероятнее всего заразится человек, которые является соседом уже заразившегося 💯
-- Кнопка начала симуляции: используется для запуска симуляции с заданными параметрами ▶️
+- Infection Probability: the percentage likelihood that a person, who is a neighbor to an already infected person, will get infected 💯
+
+- Start Simulation Button: used to start the simulation with the given parameters ▶️
 
 
 ### Simulation Screen
@@ -28,28 +29,25 @@
 
 <img align="left" width="20%" src="https://github.com/dolludaa/VKInternship/assets/111228178/aa74caee-a7e1-4302-8f75-fb520309def3.png">
 
-После ввода параметров и нажатия кнопки начала симуляции пользователь переходит на экран симуляции. 
+After entering the parameters and pressing the start button, the user moves to the simulation screen.
 
-На экране отображается вся группа людей для симуляции. 
+The screen displays the entire group of people for the simulation.
 
-Экран поддерживает прокрутку и масштабирование для лучшей визуализации.
+The screen supports scrolling and zooming for better visualization.
 
-В начальном состоянии все люди здоровы и отображаются таким образом. 
+In the initial state, all people are healthy and displayed as such.
 
-Если пользователь коснется здорового человека, он становится зараженным, и симуляция обновляется соответственно. 
-
-
-Симуляция пересчитывается с заданной частотой, и на экране отображаются новые зараженные люди. Правило пересчета заключается в том, что случайный поднабор соседних зараженных людей становится зараженным с ограничением того, что размер поднабора не может превышать фактор заражения.
-Кроме того, приложение отображает текущее количество здоровых и зараженных людей, и симуляция должна реагировать на взаимодействие пользователя в любое время.
+If the user touches a healthy person, they become infected, and the simulation updates accordingly.
 
 
-
+The simulation is recalculated at the set frequency, and new infected people are displayed on the screen. The recalculating rule is that a random subset of neighboring infected people becomes infected, with the limitation that the subset size cannot exceed the infection factor.
+Additionally, the app displays the current number of healthy and infected people, and the simulation should respond to user interaction at any time.
 
 
 
 ### Getting Started
 
 
->Чтобы запустить приложение, клонируйте репозиторий и откройте проект в Xcode. 
+>To start the app, clone the repository and open the project in Xcode.
 
->Создайте и запустите проект на симуляторе или физическом устройстве.
+>Create and run the project on a simulator or physical device.
